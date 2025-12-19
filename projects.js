@@ -20,26 +20,26 @@ lightbox.addEventListener('click', e => {
 
 // Array of projects
 const projects = [
-  {img: "img/DYCK2332.JPG", title: "Commercial Complex", desc: "High-quality commercial space built with precision."},
-  {img: "img/SQQE7473.JPG", title: "Residential Apartments", desc: "Modern, comfortable apartments for families and professionals."},
-  {img: "img/BBXQ7668.JPG", title: "Modern Office Building", desc: "Stylish office space designed for productivity and aesthetics."},
-  {img: "img/BRJU7796.JPG", title: "Luxury Villas", desc: "Exclusive villas with modern amenities and landscape design."},
-  {img: "img/BLQC9463.JPG", title: "Retail Center", desc: "Shopping space with contemporary design and open layout."},
-  {img: "img/BSMD2930.JPG", title: "Industrial Park", desc: "Well-planned industrial space for manufacturing and logistics."},
-  {img: "img/CITG6560.JPG", title: "Hospital Complex", desc: "Medical facility designed for efficiency and patient comfort."},
-  {img: "img/EKDJ7035.JPG", title: "Mixed-Use Development", desc: "Residential, commercial, and office spaces in one project."},
-  {img: "img/EUYL2277.JPG", title: "Eco-Friendly Apartments", desc: "Sustainable design with energy-saving systems."},
-  {img: "img/GJAN4700.JPG", title: "Corporate Headquarters", desc: "Modern office building with open-plan workspace."},
-  {img: "img/GQNP4342.JPG", title: "Student Housing", desc: "Safe and comfortable housing for students."},
-  {img: "img/JBLQ5213.JPG", title: "Boutique Hotel", desc: "Luxury hotel designed for guests' comfort."},
-  {img: "img/JPFG1506.JPG", title: "Community Center", desc: "Spaces designed for social, cultural, and recreational activities."},
-  {img: "img/KPME6014.JPG", title: "Sports Complex", desc: "Modern sports facilities with spectator areas."},
-  {img: "img/YICA6059.JPG", title: "Warehouse Facility", desc: "High-capacity storage with organized logistics."},
-  {img: "img/PWYG6922.JPG", title: "Office Park", desc: "Cluster of modern office buildings with parking spaces."},
-  {img: "img/UYHF3615.JPG", title: "Luxury Condominiums", desc: "Premium apartments with beautiful interiors."},
-  {img: "img/XAGU5555.JPG", title: "Townhouses", desc: "Modern townhouse complexes for families."},
-  {img: "img/YICA6059.JPG", title: "Healthcare Clinic", desc: "Clinic designed for community accessibility and comfort."},
-  {img: "img/WVZO4505.JPG", title: "Event Center", desc: "Facility for conferences, events, and gatherings."}
+  {img: "DYCK2332.JPG", title: "Commercial Complex", desc: "High-quality commercial space built with precision."},
+  {img: "SQQE7473.JPG", title: "Residential Apartments", desc: "Modern, comfortable apartments for families and professionals."},
+  {img: "BBXQ7668.JPG", title: "Modern Office Building", desc: "Stylish office space designed for productivity and aesthetics."},
+  {img: "BRJU7796.JPG", title: "Luxury Villas", desc: "Exclusive villas with modern amenities and landscape design."},
+  {img: "BLQC9463.JPG", title: "Retail Center", desc: "Shopping space with contemporary design and open layout."},
+  {img: "BSMD2930.JPG", title: "Industrial Park", desc: "Well-planned industrial space for manufacturing and logistics."},
+  {img: "CITG6560.JPG", title: "Hospital Complex", desc: "Medical facility designed for efficiency and patient comfort."},
+  {img: "EKDJ7035.JPG", title: "Mixed-Use Development", desc: "Residential, commercial, and office spaces in one project."},
+  {img: "EUYL2277.JPG", title: "Eco-Friendly Apartments", desc: "Sustainable design with energy-saving systems."},
+  {img: "GJAN4700.JPG", title: "Corporate Headquarters", desc: "Modern office building with open-plan workspace."},
+  {img: "GQNP4342.JPG", title: "Student Housing", desc: "Safe and comfortable housing for students."},
+  {img: "JBLQ5213.JPG", title: "Boutique Hotel", desc: "Luxury hotel designed for guests' comfort."},
+  {img: "JPFG1506.JPG", title: "Community Center", desc: "Spaces designed for social, cultural, and recreational activities."},
+  {img: "KPME6014.JPG", title: "Sports Complex", desc: "Modern sports facilities with spectator areas."},
+  {img: "YICA6059.JPG", title: "Warehouse Facility", desc: "High-capacity storage with organized logistics."},
+  {img: "PWYG6922.JPG", title: "Office Park", desc: "Cluster of modern office buildings with parking spaces."},
+  {img: "UYHF3615.JPG", title: "Luxury Condominiums", desc: "Premium apartments with beautiful interiors."},
+  {img: "XAGU5555.JPG", title: "Townhouses", desc: "Modern townhouse complexes for families."},
+  {img: "YICA6059.JPG", title: "Healthcare Clinic", desc: "Clinic designed for community accessibility and comfort."},
+  {img: "WVZO4505.JPG", title: "Event Center", desc: "Facility for conferences, events, and gatherings."}
 ];
 
 // Initial load variables
@@ -92,3 +92,4 @@ loadMoreBtn.addEventListener("click", renderProjects);
 document.querySelector("#lightbox .close").addEventListener("click", () => {
   document.getElementById("lightbox").style.display = "none";
 });
+
