@@ -1063,3 +1063,49 @@ footer {
   }
 }
 
+/* =====================
+   HERO BASE (COMMON)
+===================== */
+.hero {
+  position: relative;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* =====================
+   HOME HERO IMAGE
+===================== */
+.hero-home {
+  background-image: url('CITG6560.JPG');
+}
+
+/* =====================
+   PROJECTS HERO IMAGE
+===================== */
+.hero-projects {
+  background-image: url('AOVN1500.JPG');
+}
+
