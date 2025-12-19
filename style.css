@@ -102,7 +102,7 @@ a {
 .hero {
   height: 85vh;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('img/CITG6560.JPG') center/cover no-repeat;
+    url('CITG6560.JPG') center/cover no-repeat;
   display: flex;
   align-items: center;
   color: var(--light);
@@ -1062,3 +1062,4 @@ footer {
     display: none; /* Hide name on small screens to avoid clutter */
   }
 }
+
